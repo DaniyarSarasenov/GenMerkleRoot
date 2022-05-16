@@ -1,0 +1,94 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@font-face {
+    font-family: "Titanone-Bold";
+    src: url('./assets/fonts/TitanOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Titanone-Regular";
+    src: url('./assets/fonts/TitanOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Titanone-Regular";
+    src: url('./assets/fonts/TitanOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: "IBMPlexMono-Regular";
+    src: url('./assets/fonts/IBMPlexMono-Regular.ttf');
+}
+
+.cblue {
+    color: #99e2ff;
+}
+
+.cgreen {
+    color: #b3fec7;
+}
+
+.cpink {
+    color: #fea4d4;
+}
+
+.cpurple {
+    color: #c5c5ff;
+}
+
+.cyellow {
+    color: #ffe780;
+}
+
+.cpyellow {
+    color: #ffe780;
+}
+
+.clblue {
+    color: #bbefff;
+}
+
+.App {
+    text-align: center;
+}
+
+body {
+    background-color: #F8F0FF;
+    font-family: Titanone-Bold;
+
+    background: #ffb3e3;
+}
+
+.main-container {
+    left: 0px;
+    top: 0px;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top:20px;
+}
+
+.sub-container input {
+    width: 700px;
+    margin-right: 10px;
+}
+
+.title {
+    width: 200px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+textarea {
+    width: 700px;
+    height: 300px;
+}
+
+.notification-message .title, .notification-message .message {
+    text-align: left;
+} 
